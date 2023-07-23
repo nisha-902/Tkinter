@@ -1,0 +1,12 @@
+from tkinter import *
+root = Tk()
+root.geometry("544x455")
+frame = Frame(root, bg="grey", borderwidth=6, relief=SUNKEN)
+frame.pack(side=LEFT, fill="y")
+frame2 = Frame(root, bg="grey", borderwidth=6, relief=SUNKEN)
+frame2.pack(side=TOP, fill="x")
+label = Label(frame, text="hii, welcome to SkillBout")
+label.pack(side=LEFT, fill="x", anchor="nw")
+label2 = Label(frame2, text="welcome to the SkillBout", pady=50)
+label2.pack()
+root.mainloop()
